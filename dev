@@ -1,0 +1,9 @@
+#!/bin/sh
+GWT_HOME=/home/torgeir/tools/gwt-2.0.3
+CP=$GWT_HOME/gwt-user.jar:$GWT_HOME/gwt-dev.jar:./src
+WAR=tmp/gwtExplodedWebApps/mod1
+STARTUPURL=gwtWorkshop.mod1.Mod1/Mod1.html
+MODNAME=gwtWorkshop.mod1.Mod1
+MAINCLASS=com.google.gwt.dev.DevMode
+
+java -Xmx512m -classpath $CP $MAINCLASS -war $WAR -startupUrl $STARTUPURL $MODNAME 
