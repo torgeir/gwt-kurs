@@ -1,0 +1,28 @@
+A module is a unit modularity
+
+A GWT module includes
+	An xml file
+		src/gwtWorkshop/mod1/Mod1.gwt.xml
+	
+	at least one client side source folder
+		this have to be siblings to the gwt.xml file
+		By default, this folder is called client
+			But, with an entry in the gwt.xml file you can rename it or have multiple
+		This is where you put .java files that you want compiled to javascript
+		
+	Optionally, one of the classes in the client folder(s) can have an EntryPoint
+	
+	Example
+		src/gwtWorkshop/mod1/Mod1.gwt.xml
+		src/gwtWorkshop/mod1/client/
+			Foo.java
+			Boo.java
+		
+	Where
+		The module name is
+			gwtWorkshop.mod1.Mod1
+			
+			The module name is used
+				by the command line tools (DevMode, Compiler)
+				in the gwt.xml file itself when inheriting other modules
+				the default gwt compiler output folder

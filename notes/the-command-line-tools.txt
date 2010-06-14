@@ -1,0 +1,25 @@
+com.google.gwt.dev.DevMode
+com.google.gwt.dev.Compiler
+
+These two command line tools are in gwt-dev.jar
+
+They both take approx. the same inputs
+
+The inputs to these tools come from
+
+1	command-line arguments
+		
+		-war
+			this is where your compiled output goes
+			
+		-startupUrl
+			this is the web app relative path to the html page (will not need this with hosted-mode)
+		
+		The name of the module
+		
+2	gwt.xml
+
+3	your classpath
+		is read from your classpath
+			.gwt.xml	
+			.java files
