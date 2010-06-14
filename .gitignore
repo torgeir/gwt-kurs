@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings/
+bin/
+src/gwtWorkshop/mod1/public/.*
+tmp/
+
