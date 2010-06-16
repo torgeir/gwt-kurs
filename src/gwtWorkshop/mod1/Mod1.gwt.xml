@@ -2,11 +2,15 @@
         "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
 <module>
 	
-	<inherits name='com.google.gwt.user.User'/>
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+	<inherits name="com.google.gwt.json.JSON" />
 	
 	<source path="client"/>
 	<source path="shared"/>
 	
 	<entry-point class="gwtWorkshop.mod1.client.Mod1"/>
+	
+	<stylesheet src="Mod1.css"/>
 	
 </module>

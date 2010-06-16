@@ -1,11 +1,29 @@
 table based:
-	HorizontalPanel
-	VerticalPanel
-	Grid
-	FlexTable
-	DockLayout - North, South, East, West, Center
-
-Visible
-	Stack panel
-	Tab panel
-	Split panel
+	Invisible
+		HorizontalPanel
+		VerticalPanel
+		Grid
+		FlexTable
+		DockLayout - North, South, East, West, Center
+	
+	Visible
+		Stack panel
+		Tab panel
+		Split panel
+	
+CSS Based (layout panels)
+	top, left, bottom, right
+	
+	Invisible
+		RootLayoutPanel
+		LayoutPanel
+		ResizeComposite
+	
+	Visible
+		DockLayoutPanel
+		SplitLayoutPanel
+		TabLayoutPanel
+		
+	For VerticalPanel: FlowLayout
+	
+	For HorizontalPanel: use div with float

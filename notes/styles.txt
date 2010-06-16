@@ -1,0 +1,15 @@
+1	Local 
+		widget.getElement().getStyle().setBackgroundColor("red");
+
+2	at top of html page
+		widget.addStyleName("myClass")
+		widget.setStyleName("myClass")
+
+3 	put styles in a css file
+		widget.addStyleName("myClass")
+		widget.setStyleName("myClass")
+
+		note: use <stylesheet /> in gwt.xml, prevents gwt from overriding your own
+		
+4 	UI-Binder allows you to use xml to define higher level widgets
+		a variant of #2
